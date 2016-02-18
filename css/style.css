@@ -6,6 +6,7 @@ html, body{
 
 body{
     background:black;
+    box-sizing:border-box;
     margin:0;
     padding:0;
     width:100%;
@@ -40,8 +41,9 @@ header img{
 
 main{
     background-color: #f1f1f1;
+    box-sizing: border-box;
     opacity:;
-    margin:0;
+    margin:0 auto;
     padding:0;
     width:80%;
     margin-left:10%;
@@ -63,10 +65,32 @@ main{
 #row_two{
     position:relative;
     top: -90px;
-    margin-left:10px;
-    margin-right:10px;
+    margin:0 auto;
 }
 
+#row_two_image{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    float:left;
+    
+}
+
+#row_two_text{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    float:left;
+    
+}
+
+#row_three{
+    position:relative;
+    top: -90px;
+    margin-left:10px;
+    margin-right:10px;
+    display:block;
+}
 
 
 footer{
