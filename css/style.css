@@ -161,9 +161,17 @@ main{
 
 
 footer{
-    background-color: blue;
+    background-color: firebrick;
+    text-align: center;
+    font-size:2.5rem;
     margin:0;
     padding:0;
-    
-    
+    width:100%;
+    height:100px;
+    opacity:.5;
+}
+
+footer p{
+    margin:0;
+    padding-top:10px;
 }
