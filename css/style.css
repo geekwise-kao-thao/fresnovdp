@@ -54,13 +54,37 @@ header img{
 }
 
 header nav{
-    margin-top:310px;
+    margin-top:200px;
     text-align: center;
     width:80%;
-    margin-left:10%;
-    display:
+    margin-left:10%;    
+    font-size:2rem;
 }
 
+header nav ul{
+    margin:0 auto;
+    
+}
+
+header nav ul{
+    margin:0 auto;
+    padding:0;
+    
+}
+
+header nav ul li{
+    margin-top:120px;
+    text-transform: capitalize;
+    display:inline-block;
+    width:calc(100%/6);
+    list-style: none;
+    
+}
+
+.tabs{
+    color:#ffffff;
+    text-decoration:none;
+}
 
 main{
     background-color: #f1f1f1;
