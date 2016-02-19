@@ -111,6 +111,62 @@ main section{
     height:100%;
 }
 
+/*about us section one*/
+
+
+*#about_us_section_one{
+    margin:0;
+    padding:10px;
+    font-size:1.6rem;
+    text-align:left;
+}
+
+*#about_us_subheading{
+    font-size:3rem;
+}
+
+*#veterans_day_history{
+    font-size:3rem
+}
+
+*#about_us_section_two{
+    background-color: white;
+    margin:0 auto;
+    padding:0;
+    box-sizing:border-box;
+    width:100%;
+}
+
+*#about_us_section_two img{
+    margin-top:2px;
+    margin-left:2px;
+    padding:0;
+    display: inline-block;
+    width:calc(100%/3);
+    float:left;
+}
+*#about_us_section_two nav{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    width:calc(100%/2);
+    font-size: 1.5rem;
+    text-align:left;
+    height:325px;
+}
+*#about_us_section_two nav ul{
+    list-style:none;
+    background-color:white;
+    margin-top:110px;
+}
+*#about_us_section_two nav ul li{
+    background-color:grey;
+    margin:5px;
+    padding:3px;
+    
+}
+/*end about us section one*/
+
 main section img{
     background-color:pink;
     margin:0;
