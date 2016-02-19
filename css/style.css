@@ -157,8 +157,7 @@ main section{
 *#about_us_section_two nav ul{
     list-style:none;
     background-color:white;
-    margin-top:100px;
-    margin-right:0px;
+    margin-top:110px;
 }
 *#about_us_section_two nav ul li{
     background-color:grey;
