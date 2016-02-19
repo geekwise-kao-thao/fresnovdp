@@ -2,180 +2,179 @@ html, body{
     margin:0;
     padding:0;
     font-size:62.5%;
+    box-sizing:border-box;
 }
 
 body{
-    background:black;
-    box-sizing:border-box;
+    background-color:black;
+    box-sizing: border-box;
     margin:0;
     padding:0;
-    width:100%;
-    
+    text-align:center;
     
 }
 
 header{
     background-color:firebrick;
+    box-sizing: border-box;
     margin:0 auto;
     padding:0;
     width:100%;
-    height:380px;
+    height:220px;;
    
+    
 }
 
-header section{
-    margin:0 auto;
+header > div{
+    margin:0;
     padding:0;
-    width:80%;
-    height:20px;
+    box-sizing: border-box;
+    width:60%;
+    margin-left:20%;
     
 }
 
 #icon{
-    margin-right:0px;
-    box-shadow: 5px 5px 5px black;
-    display:inline-block;
-    width:calc(100%/4);
-    float:left;
-}
-
-.social_media{
-    margin-bottom:0;
-    box-shadow: 5px 5px 5px black;
-    display:inline-block;
-    width:cal(100%/4);
-    float:right;
-    
-}
-
-header img{
-    margin:3px;
+    box-sizing: border-box;
+    margin:10px;
     padding:0;
+    display:inline-block;
+    width:20%;
+    height:70%;
+    float:left;
+    box-shadow: 5px 5px 5px black;
+}
+
+header section img{
+    box-sizing: border-box;
+    margin:10px;
+    padding:0;
+    display:inline-block;
+    float:right;
+    box-shadow: 5px 5px 5px black;
 }
 
 header nav{
-    margin-top:200px;
-    width:80%;
-    margin-left:10%; 
+    margin:0;
     padding:0;
-    font-size:2rem;
-}
+    width: 100%;
+    text-align:right;
+    box-sizing: border-box;
+    display:inline-block;
     
 }
 
 header nav ul{
     margin:0 auto;
     padding:0;
-    
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    list-style: none;
 }
 
 header nav ul li{
-    margin-top:110px;
-    margin-left:0px;
-    text-transform: capitalize;
-    display:inline-block;
-    width:calc(65%/6);
-    height:20px;
-    list-style: none;
     background-color:navy;
-    text-align: center;
-    padding:5px;
+    margin:3px;
+    padding-top:3px;
+    width:calc(60%/6);
+    height:10%;
+    box-sizing: border-box;
+    float:right;
+    font-size:1.2rem;
+    text-transform:capitalize;
+    text-align:center;
     
 }
 
-.tabs{
-    color:#ffffff;
-    text-decoration:none;
-    font-size:1.5rem;
-    margin:0;
-    padding:0;
+header nav ul li a{   
+    color:white;
+    text-decoration: none;
     
 }
 
 main{
-    background-color: #f1f1f1;
+    background-color:yellow;
+    margin-left:20%;
+    padding:0;
+    width:60%;
+    height:100%;
+    box-sizing:border-box;    
+}
+
+main section{
+    background-color:grey;
     box-sizing: border-box;
-    opacity:;
-    margin:0 auto;
-    padding:0;
-    width:80%;
-    margin-left:10%;
-    
-        
-}
-
-
-#hero{
-    background-color:bisque;
     margin:0;
-    padding:0;    
+    padding:0;
     width:100%;
-    height:500px;
-    
+    height:100%;
 }
 
-#row_two{
-    margin:0 auto;
-    font-size:1.5rem;
-}
-
-#row_two_image{
-    margin-left:10px;
+main section img{
+    background-color:pink;
+    margin:0;
     padding:0;
-    display:inline-block;
-    width:45%;
+    width:100%;
+    height:322px;
 }
 
-#row_two_text{
-    margin-right:10px;
-    padding:0;
-    display:inline-block;
-    float:right;
-    width:45%;
-    height:350px;
-    font-size:2.5rem;
-    text-align:left;
-}
-
-#row_three{
+main section:nth-of-type(2){
+    background-color:blue;
+    box-sizing: border-box;
     margin:0 auto;
     padding:0;
-    display:block;
-    font-size:1.5rem;
     width:100%;
-    height:360px;
+    height:100%;
 }
-#row_three_image{
-    margin-left:10px;
+
+#top_left{
+    margin:0;
     padding:0;
     display:inline-block;
+    width:50%;
     float:left;
-    width:45%;
 }
-
-#row_three_text{
-    margin-right:10px;
-    margin-top:-45px;
+#top_right{
+    background-color:white;
+    font-size:2rem;
+    margin:0;
+    padding:20px;
+    display:inline-block;
+    text-align: left;
+    width:45%;
+    height:282px;
+    
+    float:left;
+}
+#bottom_left{
+    margin:0;
     padding:0;
     display:inline-block;
-    float:right;
-    width:45%;
-    font-size:2.5rem;
+    width:50%;
+    float:left;
 }
-
+#bottom_right{
+    background-color:white;
+    font-size:2rem;
+    margin:0;
+    padding:20px;
+    display:inline-block;
+    width:45%;
+    height:282px;
+    float:right;
+}
 
 footer{
-    background-color: firebrick;
-    text-align: center;
-    font-size:2.5rem;
-    margin:0;
+    background-color:firebrick;
+    font-size:2rem;
+    margin-top:645px;
     padding:0;
     width:100%;
-    height:100px;
-    opacity:.5;
+    height: 100px;
+    text-align: center;
 }
 
-footer p{
-    margin:0;
-    padding-top:10px;
+footer{
+    
 }
