@@ -184,6 +184,25 @@ main section{
     
 }
 /*end about us section one*/
+/*grand marshal begins*/
+
+*#grand_marshal{
+    background-color:black;
+    color:white;
+    font-size:3rem;
+    margin:0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width:100%;
+}
+
+
+
+*#marshal_pic{
+    
+}
+
+/*grand marshal ends*/
 
 main section img{
     background-color:pink;
