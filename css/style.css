@@ -402,10 +402,11 @@ main section:nth-of-type(3){
     padding-top:5px;
     font-size:1.5rem;
     text-align: left;
+    overflow: auto;
     
 }
 #parade_footer{
-    margin-top:0;
+    margin:0;
 }
 
 #parade_footer p{
