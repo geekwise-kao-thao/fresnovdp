@@ -108,32 +108,170 @@ main{
 main section{
     background-color:firebrick;
     box-sizing: border-box;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:0;
+    width:100%;
+    height:350px;
+    overflow:hidden;
+}
+
+main section img{
+    background-color:white;
+    margin:0;
+    padding:0;
+    width:calc(800px/1.1);
+    height:calc(322px*1.5);
+}
+
+
+main section:nth-of-type(2){
+    background-color:white;
+    box-sizing: border-box;
+    margin:0 auto;
+    padding:0;
+    width:100%;
+}
+#top_left{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    width:calc(237px*1.3);
+    float:left;
+    overflow:hidden;
+}
+#top_right{
+    background-color:white;
+    font-size:2rem;
+    margin-left:97px;
+    padding:20px;
+    display:inline-block;
+    text-align: left;
+    width:45%;
+    
+}
+main section:nth-of-type(3){
+    background-color:white;
+}
+#bottom_left{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    width:calc(237px*1.3);
+    height:100%;
+    float:left;
+}
+#bottom_right{
+    background-color:white;
+    font-size:2rem;
+    margin-top:10;
+    padding:20px;
+    display:inline-block;
+    width:45%;
+    
+    float:right;
+    text-align: left;
+}
+
+/*sponsors*/
+#sponsors_images{
+    background-color:black;
+    display:block;
     margin:0;
     padding:0;
     width:100%;
     height:100%;
 }
-/*sponsors*/
-*#sponsors_images{
-    
-    background-color:blue;
-    margin:0;
+#sponsors_div_one{
+    margin:0 auto;
     padding:0;
+    display:block;
     width:100%;
-    height:2rem;
+    height:250px;
 }
-*#sponsors_images img{
+#sponsors_div_one img:nth-of-type(1){
+    display:inline-block;
+    float:left;
+    width:calc(96%/3);
+    height:100%;
     margin:5px;
     padding:0;
-    width:calc(96.2%/3);
+}
+#sponsors_div_one img:nth-of-type(2){
+    display:inline-block;
     float:left;
+    width:calc(96%/3);
+    height:100%;
+    margin:5px;
+    padding:0;
+}
+#sponsors_div_one img:nth-of-type(3){
+    display:inline-block;
+    float:left;
+    width:calc(96%/3);
+    height:100%;
+    margin:5px;
+    padding:0;
+}
+
+#sponsors_div_two{
+    margin:0 auto;
+    padding:0;
+    display:block;
+    width:100%;
+    height:250px;
+}
+#sponsors_div_two img:nth-of-type(1){
+    display:inline-block;
+    float:left;
+    width:calc(96%/3);
+    height:100%;
+    margin:5px;
+    padding:0;
+}
+#sponsors_div_two img:nth-of-type(2){
+    display:inline-block;
+    float:left;
+    width:calc(96%/3);
+    height:100%;
+    margin:5px;
+    padding:0;
+}
+#sponsors_div_two img:nth-of-type(3){
+    display:inline-block;
+    float:left;
+    width:calc(96%/3);
+    height:100%;
+    margin:5px;
+    padding:0;
+}
+
+#sponsors_footer{
+    margin-top:10px;
 }
 
 /*end sponsors*/
 
 /*parade route starts*/
 
-
+#direction{
+    background-color:grey;
+}
+#direction p{
+    font-size: 1.7rem;
+}
+#direction p:nth-of-type(1){
+    font-size:2.2rem;
+    text-decoration: underline;
+}
+#direction p:nth-of-type(2){
+    font-size:2.2rem;
+    text-decoration: underline;
+}
+#direction ul{
+    list-style: decimal;
+    line-height: 25px;
+}
 
 /*parad route ends*/
 
@@ -255,61 +393,7 @@ main section{
 
 /*grand marshal ends*/
 
-main section img{
-    background-color:pink;
-    margin:0;
-    padding:0;
-    width:100%;
-    height:322px;
-}
-
-main section:nth-of-type(2){
-    background-color:blue;
-    box-sizing: border-box;
-    margin:0 auto;
-    padding:0;
-    width:100%;
-    height:100%;
-}
-
-#top_left{
-    margin:0;
-    padding:0;
-    display:inline-block;
-    width:50%;
-    float:left;
-}
-#top_right{
-    background-color:white;
-    font-size:2rem;
-    margin:0;
-    padding:20px;
-    display:inline-block;
-    text-align: left;
-    width:45%;
-    height:282px;
-    
-    float:left;
-}
-#bottom_left{
-    margin:0;
-    padding:0;
-    display:inline-block;
-    width:50%;
-    float:left;
-}
-#bottom_right{
-    background-color:white;
-    font-size:2rem;
-    margin:0;
-    padding:20px;
-    display:inline-block;
-    width:45%;
-    height:282px;
-    float:right;
-}
-
-/*parade route*/
+/*parade route* starts*/
 
 #direction{
     
@@ -333,7 +417,7 @@ main section:nth-of-type(2){
 footer{
     background-color:firebrick;
     font-size:2rem;
-    margin-top:645px;
+    margin-top:-10px;
     padding:0;
     width:100%;
     height: 100px;
