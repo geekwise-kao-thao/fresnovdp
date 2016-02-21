@@ -79,8 +79,8 @@ header nav ul li{
     background-color:navy;
     margin:3px;
     padding-top:3px;
-    width:calc(60%/6);
-    height:10%;
+    width:calc(69%/6);
+    height:100%;
     box-sizing: border-box;
     float:right;
     font-size:1.2rem;
@@ -92,6 +92,7 @@ header nav ul li{
 header nav ul li a{   
     color:white;
     text-decoration: none;
+    font-family: sans-serif;
     
 }
 
