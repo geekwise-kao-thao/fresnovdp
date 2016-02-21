@@ -161,20 +161,18 @@ main section{
     line-height: 20px;
 }
     
-}
-
 /*press releases ends*/
 /*about us section one*/
 
 
-*#about_us_section_one{
-    margin:0;
-    padding:10px;
+#about_us_section_one{
     font-size:1.6rem;
     text-align:left;
+    padding:10px;
+    
 }
 
-*#about_us_subheading{
+#about_us_subheading{
     font-size:3rem;
 }
 
