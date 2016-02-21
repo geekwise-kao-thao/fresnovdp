@@ -315,6 +315,7 @@ main section:nth-of-type(3){
     font-size:1.6rem;
     text-align:left;
     padding:10px;
+    overflow: auto;
     
 }
 
@@ -361,7 +362,9 @@ main section:nth-of-type(3){
     margin:5px;
     padding:3px;
 }
-
+#about_us_footer{
+    margin-top:1px;
+}
 
 /*end about us section one*/
 /*grand marshal begins*/
@@ -385,12 +388,16 @@ main section:nth-of-type(3){
     font-size:1.6rem;
     text-align:left;
     padding:10px;
+    overflow: auto;
 }
 #grand_marshal_section_two p:nth-of-type(1){
     text-align: center;
     font-size:2rem;
 }
 
+#grand_marshal_footer{
+    margin-top:1px;
+}
 /*grand marshal ends*/
 
 /*parade route* starts*/
