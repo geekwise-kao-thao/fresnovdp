@@ -38,11 +38,10 @@ header > div{
 
 #icon{
     box-sizing: border-box;
-    margin:10px;
+    margin:0;
     padding:0;
-    display:inline-block;
-    width:20%;
-    height:70%;
+    width:calc(261px/2);
+    height:100%;
     float:left;
     box-shadow: 5px 5px 5px black;
 }
@@ -51,13 +50,12 @@ header section img{
     box-sizing: border-box;
     margin:10px;
     padding:0;
-    display:inline-block;
     float:right;
     box-shadow: 5px 5px 5px black;
 }
 
 header nav{
-    margin-top:20px;
+    margin-top:60px;
     padding:0;
     width: 100%;
     text-align:center;
@@ -73,24 +71,23 @@ header nav ul{
     height:100%;
     box-sizing:border-box;
     list-style: none;
-    float:right;
     overflow: hidden;
 }
 
 header nav ul li{
     background-color:#6D2222;
-    margin:2px;
+    margin:0;
     padding:0;
-    width:calc(97%/6);
+    width:calc(100%/6);
     height:100%;
     box-sizing: border-box;
-    float:right;
+    float:left;
     font-size:1.2rem;
     text-transform:capitalize;
     text-align:center;
     overflow: hidden;
     box-shadow: 4px 4px 4px black;
-    border: 2px solid #555555;    
+    border: 2px solid black;    
 }
 
 header nav ul li a{ 
@@ -214,15 +211,36 @@ main section:nth-of-type(3){
     height:250px;
     overflow: hidden;
 }
-#sponsors_div_one img:nth-of-type(1){
+
+#sponsors_div_one_image_one{
     display:inline-block;
     float:left;
     width:calc(100%/3);
     height:100%;
-    margin:;
+    margin:0;
     padding:0;
+    border:2px black;
 }
-#sponsors_div_one img:nth-of-type(2){
+
+#sponsors_navy{
+    width:100%;
+    height:auto;
+}
+
+#sponsors_table_mountain{
+    width:calc(1536px/11);
+    height:auto;
+}
+
+#sponsors_eye_q{
+    width:100%;
+    height:auto;
+}
+
+#sponsors_div_one img:hover{
+    opacity:.5;
+}
+#sponsors_div_one_image_two{
     display:inline-block;
     float:left;
     width:calc(100%/3);
@@ -230,7 +248,10 @@ main section:nth-of-type(3){
     margin:0;
     padding:0;
 }
-#sponsors_div_one img:nth-of-type(3){
+#sponsors_div_two img:hover{
+    opacity:.5;
+}
+#sponsors_div_one_image_three{
     display:inline-block;
     float:left;
     width:calc(100%/3);
