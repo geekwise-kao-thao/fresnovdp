@@ -83,7 +83,7 @@ header nav ul li{
     margin:0;
     padding:0;
     width:calc(100%/6);
-    height:100%;
+    height:23px;
     box-sizing: border-box;
     float:left;
     font-size:1.2rem;
@@ -113,7 +113,7 @@ header nav ul li a:hover{
 }
 
 main{
-    background-color:firebrick;
+    background-color:white;
     margin:0 auto;
     padding:0;
     width:90%;
@@ -132,11 +132,11 @@ main section{
     overflow:hidden;
 }
 
-main section img{
+#home_main_section img{
     background-color:white;
     margin:0;
     padding:0;
-    width:calc(800px/1.1);
+    width:calc(100%/1.1);
     height:calc(322px*1.5);
 }
 
@@ -199,8 +199,8 @@ main section:nth-of-type(3){
 }
 
 /*sponsors*/
-#sponsors_images{
-    background-color:black;
+#sponsors_images_section{
+    background-color:white;
     display:block;
     margin:0;
     padding:0;
@@ -212,88 +212,92 @@ main section:nth-of-type(3){
     padding:0;
     display:block;
     width:100%;
-    height:250px;
-    overflow: hidden;
+    height:350px;
+    
 }
 
-#sponsors_div_one_image_one{
-    display:inline-block;
-    float:left;
-    width:calc(100%/3);
-    height:100%;
-    margin:0;
-    padding:0;
-    border:2px black;
-}
 
 #sponsors_navy{
-    width:100%;
+    display:inline-block;
+    width:calc(100%/3);
     height:auto;
+    float:left;
+    opacity:.5;
+    
 }
 
 #sponsors_table_mountain{
-    width:calc(1536px/11);
+    display:inline-block;
+    width:calc(100%/3);
     height:auto;
-}
-
-#sponsors_eye_q{
-    width:100%;
-    height:auto;
-}
-
-#sponsors_div_one img:hover{
+    float:left;
     opacity:.5;
 }
-#sponsors_div_one_image_two{
-    display:inline-block;
-    float:left;
-    width:calc(100%/3);
-    height:100%;
-    margin:0;
-    padding:0;
-}
-#sponsors_div_two img:hover{
+
+#sponsors_united{
+    display: inline-block;
+    width:calc(95%/3);
+    height:auto;
+    padding-top:15px;
     opacity:.5;
 }
-#sponsors_div_one_image_three{
-    display:inline-block;
-    float:left;
-    width:calc(100%/3);
-    height:100%;
-    margin:0;
-    padding:0;
+
+#sponsors_navy:hover{
+    opacity:1;
+}
+
+#sponsors_table_mountain:hover{
+    opacity:1;
+}
+#sponsors_united:hover{
+    opacity: 1;
 }
 
 #sponsors_div_two{
-    margin:0 auto;
+    margin:5px auto;
     padding:0;
     display:block;
     width:100%;
     height:250px;
+    overflow:hidden;
 }
-#sponsors_div_two img:nth-of-type(1){
+
+#sponsors_pelco{
     display:inline-block;
+    width:calc(95%/3);
+    height:auto;
     float:left;
-    width:calc(100%/3);
-    height:100%;
-    margin:0;
-    padding:0;
+    margin-left:5px;
+    opacity:.5;
 }
-#sponsors_div_two img:nth-of-type(2){
+
+#sponsors_first{
     display:inline-block;
+    width:calc(95%/3);
+    height:auto;
     float:left;
-    width:calc(100%/3);
-    height:100%;
-    margin:0;
-    padding:0;
+    margin-left:15px;
+    padding-top:35px;
+    opacity:.5;
 }
-#sponsors_div_two img:nth-of-type(3){
-    display:inline-block;
-    float:left;
-    width:calc(100%/3);
-    height:100%;
-    margin:0;
-    padding:0;
+
+#sponsors_eye{
+    display: inline-block;
+    width:calc(95%/3);
+    height:auto;
+    padding-top:25px;
+    opacity:.5;
+}
+
+#sponsors_pelco:hover{
+    opacity:1;
+}
+
+#sponsors_first:hover{
+    opacity:1;
+}
+#sponsors_eye:hover{
+    opacity: 1;
 }
 
 #sponsors_footer{
