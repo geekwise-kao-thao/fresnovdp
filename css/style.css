@@ -156,6 +156,7 @@ main section:nth-of-type(2){
     padding:10px;
     display:inline-block;
     width:calc(480px/1.75);
+    height:auto;
     float:left;
     overflow:hidden;
 }
@@ -184,7 +185,7 @@ main section:nth-of-type(3){
     padding:10px;
     display:inline-block;
     width:calc(503px/1.75);
-    height:auto;
+    height:330px;
     float:left;
     overflow: hidden;
 }
