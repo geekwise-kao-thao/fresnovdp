@@ -1,0 +1,31 @@
+@media only screen and (min-width:768px)
+                   and (max-width:830px){
+    
+                       #sponsors_div_one{
+/*                           height:200px;*/
+                       }
+                       #sponsors_div_two{
+/*                           height:200px;*/
+                       }
+}
+
+@media only screen and (max-width:767px){
+    
+    
+    
+}
+
+@media only screen and (max-width:606px){
+    
+    
+}
+
+@media only screen and (max-width:530px){
+    
+    
+}
+
+@media only screen and (max-width:480px){
+    
+    
+}
